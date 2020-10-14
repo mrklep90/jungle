@@ -5,6 +5,9 @@
   </header>
 
   <div class="panel panel-default items">
+  <% if cart_subtotal_cents == 0 %>
+  <p class="alert">Your shopping cart is empty. Click <a href="/">here</a> to return to the home page.</p>
+  <% else %>
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -48,5 +51,6 @@
       <% end %>
     </div>
   </div>
+  <% end %>
 
 </section>
