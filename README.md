@@ -1,7 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
-
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. Includes checkout functionality using a free Stripe account (user created) and mock credit card. Testing was performed using Capybara and PhantomJS/Poltergeist.
 
 ## Setup
 
